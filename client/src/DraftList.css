@@ -1,0 +1,43 @@
+/* DraftList.css */
+
+.draft-list-container {
+    margin: 20px;
+  }
+  
+  .draft-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .draft-list li {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex; /* Added this line */
+    flex-direction: column; /* Added this line */
+    align-items: center; /* Added this line */
+    text-align: center; /* Added this line */
+  }
+  
+  .draft-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .draft-list li h3 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .draft-list li p {
+    margin: 0;
+    color: #666;
+  }
+  
+  /* Add more styles as needed */
+  
