@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './Home';
-import Draft from './Draft';
-import Navbar from './Navbar';
-import DraftList from './DraftList';
-import ReviewDraft from './ReviewDraft';
+import Draft from './pages/Draft';
+import DraftList from './pages/DraftList';
+import Home from './pages/Home';
+import Navbar from './components/Navbar/Navbar';
+import ReviewDraft from './pages/ReviewDraft';
 
 const App = () => {
   return (
