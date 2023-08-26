@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Draft from './pages/Draft';
 import DraftList from './pages/DraftList';
 import Home from './pages/Home';
-import Navbar from './components/Navbar';
+import Bootbar from './components/Bootbar';
 import ReviewDraft from './pages/ReviewDraft';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -11,7 +11,7 @@ const App = () => {
   return (
     <Router>
       <div>
-        <Navbar />
+        <Bootbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/draft" element={<Draft />} />

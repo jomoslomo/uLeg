@@ -1,0 +1,13 @@
+.bootbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+}
+
+.options {
+    border-radius: 0.25rem;
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+.options:hover {
+    background-color: #F0F0F0;
+}
