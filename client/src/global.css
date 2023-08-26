@@ -1,7 +1,14 @@
 :root {
-    --primary-color: #191970;
-    --secondary-color: #FDB813;
-    --tertiary-color: #B81833;
-    --quaternary-color: #50C878;
+    --primary-color: #33658A;
+    --secondary-color: #F6AE2D;
+    --tertiary-color: #DAEAF3;
+    --quaternary-color: #F26419;
+    --quinary-color: #2F4858;
+    --senary-color: #86BBD8;
+    /* Below are unused colors. They exist as placehodlers. */
+    --septenary-color: #000000;
+    --octonary-color: #000000;
+    --nonary-color: #000000;
+    --denary-color: #000000;
   }
   
