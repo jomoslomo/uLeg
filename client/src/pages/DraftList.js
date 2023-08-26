@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/DraftList.css';
+import './styles/DraftList.css';
 
 const DraftList = () => {
   const [drafts, setDrafts] = useState([]);

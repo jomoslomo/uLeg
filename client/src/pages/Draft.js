@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/Draft.css';
+import './styles/Draft.css';
 
 const Draft = () => {
   const [title, setTitle] = useState('');
