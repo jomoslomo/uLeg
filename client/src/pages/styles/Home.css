@@ -4,6 +4,7 @@
     text-align: center;
     padding: 50px;
     width: max-content;
+    max-width: 100%;
     height:max-content;
     margin: 0 auto;
   }
