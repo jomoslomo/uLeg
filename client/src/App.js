@@ -5,6 +5,7 @@ import DraftList from './pages/DraftList';
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import ReviewDraft from './pages/ReviewDraft';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
